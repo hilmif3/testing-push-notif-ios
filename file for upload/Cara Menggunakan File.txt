@@ -1,0 +1,16 @@
+1. Menggunakan File .p12 Langsung
+
+    Jika kita sudah memiliki file certificate.p12, kita dapat langsung menggunakannya untuk mengonfigurasi Firebase.
+
+    Langkah-langkah:
+    Buka Firebase Console:
+
+    1. Masuk ke Firebase Console.
+    2. Pilih proyek kita.
+    3. Navigasikan ke Project Settings > Cloud Messaging.
+    4. Unggah File .p12:
+
+    Di bawah iOS app configuration, klik Upload Certificate di bagian APNs Certificates.
+    Pilih file certificate.p12.
+    Masukkan password file .p12 jika diminta (password dibuat saat kita mengonversi file dari Keychain di macOS).
+    Simpan Pengaturan.
